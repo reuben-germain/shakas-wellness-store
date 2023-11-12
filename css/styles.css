@@ -33,3 +33,25 @@ nav {
 .nav-links a:hover {
     color: #ff4500; /* or any other color you prefer */
 }
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Copyright text styling */
+footer p {
+    margin: 0;
+    font-size: 0.8rem;
+}
+
+/* Change link color on hover */
+footer a:hover {
+    color: #ff4500; /* or any other color you prefer */
+}
