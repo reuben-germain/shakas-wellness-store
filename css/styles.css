@@ -34,6 +34,47 @@ nav {
     color: #ff4500; /* or any other color you prefer */
 }
 
+/* Add styles for the home section */
+#home {
+    background-image: url(/images/black-female-wellness.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #ff4500;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #e03300; /* Darker shade on hover */
+}
+
+
 /* Footer styling */
 footer {
     background-color: #333;
